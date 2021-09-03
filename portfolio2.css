@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  background-color: #1a1a1a;
+
+}
+header
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 8px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  
+}
+header .logo
+{
+
+  padding-bottom: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 3rem;
+  transform: scale(0.5);
+  transition: 0.3s;
+}
+header :hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+
+
+header .logo1
+{
+  padding-bottom: 70px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 3rem;
+  transform: scale(0.5);
+  transition: 0.3s;
+}
+header :hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+header .logo2
+{
+  padding-bottom: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 3rem;
+  transform: scale(0.5);
+  transition: 0.3s;
+}
+header :hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+header .logo3
+{
+  
+  padding-bottom: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 3rem;
+  transform: scale(0.5);
+  transition: 0.3s;
+}
+header :hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+header .logo4
+{
+  right: 150px;
+  padding-bottom: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 3rem;
+  transform: scale(0.5);
+  transition: 0.3s;
+}
+header :hover
+{
+  transform: scale(0.5) translateY(-15px);
+}
+
+ /* #carousel .carousel-item {
+  height: 100%;
+  width: 100%;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+
+#carousel .carousel-inner .carousel-item {
+  transition: -webkit-transform 2s ease;
+  transition: transform 2s ease;
+  transition: transform 2s ease, -webkit-transform 2s ease;
+}
+
+#carousel .carousel-item .caption {
+  background: rgba(0,0,0,0.5);
+  padding: 40px;
+  color: white;
+  animation-duration: 1s;
+  animation-delay: 2s;
+}  */
+
+
+
+
+@media (max-width: 991px)
+{
+  .showcase,
+  .showcase header
+  {
+    padding: 40px;
+  }
+  .text h2
+  {
+    font-size: 3em;
+  }
+  .text h3
+  {
+    font-size: 2em;
+  }
+}
